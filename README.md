@@ -4,7 +4,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-v4.4.3-blue.svg)](https://www.typescriptlang.org/)
 [![Sequelize](https://img.shields.io/badge/Sequelize-v6.9.0-orange.svg)](https://sequelize.org/)
 
-Mini version of home evaluation system
+Server-side of mini version of home evaluation system
 that includes a risk calculation model for potential loans.
 
 ## Table of Contents
