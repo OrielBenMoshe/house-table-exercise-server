@@ -1,8 +1,8 @@
 #  House-Table-Exercise-Server
 
-[![Node.js](https://img.shields.io/badge/Node.js-v14.17.3-green.svg)](https://nodejs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-v4.4.3-blue.svg)](https://www.typescriptlang.org/)
-[![Sequelize](https://img.shields.io/badge/Sequelize-v6.9.0-orange.svg)](https://sequelize.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-v18.8.0-green.svg)](https://nodejs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-v5.1.3-blue.svg)](https://www.typescriptlang.org/)
+[![Sequelize](https://img.shields.io/badge/Sequelize-v6.32.0-orange.svg)](https://sequelize.org/)
 
 Server-side of mini version of home evaluation system
 that includes a risk calculation model for potential loans.
