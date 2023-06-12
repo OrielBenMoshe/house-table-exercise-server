@@ -5,10 +5,6 @@ const port = process.env.PORT || 9000;
 import houseRoutes from "./routes/houses";
 import connection from "./db/config";
 
-const corsOptions = {
-  origin: `http://localhost:5174`,
-};
-
 /** Middlewares */
 app.use(cors());
 

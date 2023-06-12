@@ -4,7 +4,12 @@ import { HouseAttribute } from "../services/types";
 
 const riskCalcModel = (currentValue: number, loanAmount: number) => {
   let risk = loanAmount / currentValue;
-  return loanAmount > 0.5 * currentValue ? risk * 1.1 : risk;
+  if (loanAmount > 0.5 * currentValue) {
+    risk += 0.1;
+  }
+  risk = Math.min(risk, 1);
+
+  return risk;
 };
 
 /** POST */
