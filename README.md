@@ -8,16 +8,16 @@ Mini version of home evaluation system
 that includes a risk calculation model for potential loans.
 
 ## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
+
+* [Installation](#installation)
+* [Configuration](#Configuration)
+* [Usage](#usage)
 
 ## Installation
+
 1. Clone the repository.
 
-``` bash
+```bash
 git clone https://github.com/OrielBenMoshe/house-table-exercise-server.git
 ```
 
@@ -25,6 +25,7 @@ git clone https://github.com/OrielBenMoshe/house-table-exercise-server.git
 
 ``` bash 
 cd house-table-exercise-server
+
 ```
 
 3. Install the dependencies.
@@ -34,24 +35,25 @@ yarn
 ```
 
 ## Configuration
-1. Before running the application, please make sure you have access to a PostgreSQL database.
+
+1. Make sure you have access to a PostgreSQL database.
 2. Create an `.env` file in the root directory of your project and add the following parameters:
 
 | Parameter    | Description               |
 |--------------|---------------------------|
+| DB_HOST      | Your database host    |
 | DB_USER      | Your database username    |
 | DB_PASS      | Your database password    |
 | DB_NAME      | Your database name        |
 | DB_PORT      | Your database port        |
 | SERVER_PORT  | Your server port          |
 
-
 ## Usage
+
 1. Start the application.
-``` bash
+
+```bash
 yarn dev
 ```
-2. Open your web browser and visit http://localhost:3000.
-3. Follow the on-screen instructions to use the 
-application.
 
+2. Open your web browser and visit http://localhost:(Your server port).
